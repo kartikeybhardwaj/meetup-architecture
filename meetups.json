@@ -1,0 +1,19 @@
+{
+    "_id": ObjectId(),
+    "title": string,
+    "description": string,
+    "location": {
+        "name": string,
+        "latitude": string,
+        "longitude": string
+    },
+    "timeline": {
+        "from": date,
+        "to": date
+    },
+    "joinedBy": [ObjectId()],
+    "metadata": {
+        "createdBy": ObjectId(),
+        "createdOn": date
+    }
+}

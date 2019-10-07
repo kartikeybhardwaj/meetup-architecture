@@ -1,0 +1,18 @@
+{
+    "_id": ObjectId(),
+    "username": string,
+    "password": string,
+    "displayname": string,
+    "email": string,
+    "emailMeta": {
+        "isVerifiedEmail": bool,
+        "verifiedOn": date
+    },
+    "mobile": string,
+    "mobileMeta": {
+        "isVerifiedMobile": bool,
+        "verifiedOn": date
+    },
+    "createdMeetups": [ObjectId()],
+    "joinedMeetups": [ObjectId()]
+}
