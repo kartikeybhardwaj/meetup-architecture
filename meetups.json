@@ -3,9 +3,10 @@
     "title": string,
     "description": string,
     "location": {
-        "name": string,
-        "latitude": string,
-        "longitude": string
+        "title": string,
+        "country": string,
+        "latitude": number,
+        "longitude": number
     },
     "timeline": {
         "from": date,
