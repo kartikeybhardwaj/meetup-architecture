@@ -12,6 +12,7 @@
         "from": date,
         "to": date
     },
+    "isPrivate": boolean,
     "joinedBy": [ObjectId()],
     "metadata": {
         "createdBy": ObjectId(),
