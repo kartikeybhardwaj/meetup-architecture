@@ -14,5 +14,8 @@
         "verifiedOn": date
     },
     "createdMeetups": [ObjectId()],
-    "joinedMeetups": [ObjectId()]
+    "joinedMeetups": [ObjectId()],
+    "metadata": {
+        "signupOn": date
+    }
 }
