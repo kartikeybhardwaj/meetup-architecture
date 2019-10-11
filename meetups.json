@@ -13,7 +13,13 @@
         "to": date
     },
     "isPrivate": boolean,
-    "joinedBy": [ObjectId()],
+    "joinedBy": [{
+        "userId": ObjectId(userId),
+        "googleCalendarMeta": {
+            "added": bool,
+            "htmlLink": string
+        }
+    }],
     "metadata": {
         "createdBy": ObjectId(),
         "createdOn": date
